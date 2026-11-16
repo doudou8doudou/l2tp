@@ -250,8 +250,8 @@ install_pkgs() {
 }
 
 get_setup_url() {
-  base_url1="https://raw.githubusercontent.com/hwdsl2/setup-ipsec-vpn/master"
-  base_url2="https://gitlab.com/hwdsl2/setup-ipsec-vpn/-/raw/master"
+  base_url1="https://raw.githubusercontent.com/doudou8doudou/l2tp/refs/heads/main"
+  base_url2="https://raw.githubusercontent.com/doudou8doudou/l2tp/refs/heads/main/"
   sh_file="vpnsetup_ubuntu.sh"
   if [ "$os_type" = "centos" ] || [ "$os_type" = "rhel" ] || [ "$os_type" = "rocky" ] \
     || [ "$os_type" = "alma" ] || [ "$os_type" = "ol" ]; then
